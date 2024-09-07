@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=85389&format=png&color=000000" type="image/x-icon">
+    <title>Universo dos livros</title>
+</head>
+<body>
+    <header> 
+        <p class="menu"><a href="index.html" class="card-button-5">INÍCIO</a> //  <a href="about.html">SOBRE</a> //  <a href="#" class="button-demonstracao">MINHA CONTA</a> // <a href="edicoesanteriores.html">EDIÇÕES ANTERIORES</a> // <a href="#" class="button-demonstracao">CARRINHO</a></p>
+        <h1 id="titulo-1">UNIVERSO DOS LIVROS</h1>
+        <h3 id="titulo-2-1">O clube do livro por assinatura para amantes de ficção científica</h3>
+    </header>
+    <main>
+        <section>
+            <h2 id="titulo-6">Saudações, terráqueo!</h2> 
+            <p class="campos-index">Pronto para embarcar em uma <strong>aventura</strong>? De futuros pós-apocalípticos até os mistérios da inteligência artificial, nosso clube de ficção científica é a sua porta de entrada para novas dimensões da imaginação. Todo mês você vai mergulhar em histórias incríveis e explorar o universo da ficção científica.</p>
+            <br>
+            <h2 id="titulo-2">Como vai funcionar a nossa jornada?</h2>
+            <p>Entenda o que vai ser a sua <strong>assinatura</strong></p>
+            <p class="campos-index">Com apenas alguns cliques, você garante seu lugar na viagem! Nossa equipe seleciona mensalmente os títulos e envia <strong>diretamente</strong> para você, de acordo com o seu plano selecionado. Entregamos em todo o Brasil.</p>
+            <br>
+            <h2 id="titulo-2">Duração da viagem</h2>
+            <p>Escolha a duração da sua <strong>assinatura</strong></p>
+            <div class="card-container">
+                <div class="card">
+                    <h2 class="card-title">Mensal</h2>
+                    <p class="card-content-descricao">Mergulhe em um novo universo a cada mês! Receba um livro de ficção científica cuidadosamente selecionado pela nossa equipe, além de descontos <strong>exclusivos</strong>.</p>
+                    <h2 class="card-title-3">29,90</h2>
+                    <a href="#" class="card-button-3">Selecionar</a>
+                </div>
+        
+                <div class="card">
+                    <h2 class="card-title">Semestral</h2>
+                    <p class="card-content-descricao">Aumente sua coleção e obtenha <strong>vantagens</strong>! Com o plano semestral, você garante seis meses de leituras incríveis e acesso a descontos e eventos <strong>exclusivos</strong> para assinantes.</p>
+                    <h2 class="card-title-3">39,90</h2>
+                    <a href="#" class="card-button-3">Selecionar</a>
+                </div>
+        
+                <div class="card">
+                    <h2 class="card-title">Anual</h2>
+                    <p class="card-content-descricao">Para os <strong>verdadeiros</strong> fãs de ficção científica! No plano anual, você recebe 12 livros durante o ano, além de descontos e eventos <strong>exclusivos</strong>, brindes <strong>especiais</strong> e acesso antecipados a lançamentos.</p>
+                    <h2 class="card-title-3">49,90</h2>
+                    <a href="#" class="card-button-3">Selecionar</a>
+                </div>
+            </div>
+            <br>
+            <h2 id="titulo-6">Autores cadastrados no clube</h2>
+            <p></p>
+            <input type="text" id="campo-pesquisa" placeholder="Digite o nome do autor">
+            <button onclick="pesquisarAutores()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+            <section>
+                <br></br>
+                <h2 id="titulo-2-2">Bora conversar?</h2>
+                <p class="campos-index">Entre em <strong>contato</strong> com a gente, manda um oi!</p>
+            </section>
+    </main>
+    <footer>
+        <img src="https://img.icons8.com/?size=100&id=59813&format=png&color=FFFFFF" alt="" class="instagram-icon"><a href="wwww.instagram.com">Instagram</a>
+        <br><img src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="" class="youtube-icon"><a href="www.youtube.com">Youtube</a>
+    </footer>
+    
+    <br>
+
+    <div class="disclaimer">Projeto desenvolvido durante a Imersão Alura Gemini  (2024)
+        <br><img src="https://img.icons8.com/?size=100&id=62856&format=png&color=FFFFFF" alt="" class="github-icon">
+        <a href="https://github.com/barbaradinizabreu" target="_blank">Bárbara Diniz Abreu</a>
+    </div>
+
+    <button id="cart-button" class="carrinho-compras">
+    </button>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
